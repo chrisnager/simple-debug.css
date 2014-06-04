@@ -17,8 +17,9 @@ There are a few ways you can run simple-debug.css.
 </head>
 ```
 
-- Drag this link to your bookmarks bar and use it as a bookmarklet:
-<a href="javascript:(function(){var newcss='*{outline:1px solid #fff!important;background-color:rgba(0,2,54,.1)!important}';if('\v'=='v'){document.createStyleSheet().cssText=newcss;}else{var tag=document.createElement('style');tag.type='text/css';document.getElementsByTagName('head')[0].appendChild(tag);tag[(typeof document.body.style.WebkitAppearance=='string')?'innerText':'innerHTML']= newcss;}})();">simple-debug.css</a>
+- Go to the [project page](//chrisnager.github.io/simple-debug.css/#bookmarklet) and drag the bookmarklet link to your bookmarks bar.
+
+![simple-debug.css bookmarklet](bookmarklet.png "simple-debug.css bookmarklet")
 
 - Paste in this single line of code at the bottom of your site's last CSS file.
 
