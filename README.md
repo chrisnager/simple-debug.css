@@ -7,15 +7,16 @@ Debug your layouts with one line of CSS
 Include `simple-debug.css` just before the `</head>` closing tag.
 
 ```html
-…
-<link rel="stylesheet" href="app.css">
-<link rel="stylesheet" href="simple-debug.css">
+    …
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="simple-debug.css">
+</head>
 ```
 
 Or paste in this single line of code at the bottom of your site's last CSS file.
 
 ```css
-*{background-color:rgba(0,2,54,.125)!important}
+*{outline:1px solid #fff!important;background-color:rgba(0,2,54,.1)!important}
 ```
 
 ## License
