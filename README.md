@@ -2,6 +2,8 @@
 
 Debug your layouts with one line of CSS
 
+
+
 ## Hot to use
 
 Include `simple-debug.css` just before the `</head>` closing tag.
@@ -18,6 +20,8 @@ Or paste in this single line of code at the bottom of your site's last CSS file.
 ```css
 *{outline:1px solid #fff!important;background-color:rgba(0,2,54,.1)!important}
 ```
+
+
 
 ## License
 
