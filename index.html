@@ -18,18 +18,25 @@
             <pre><code>*{outline:1px solid #fff!important;background-color:rgba(0,2,54,.1)!important}</code></pre>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Clients</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#bookmarklet">Try out the bookmarklet</a></li>
+                    <li><a href="//github.com/chrisnager/simple-debug.css">View source code on GitHub</a></li>
+                    <li><a href="//codepen.io/chrisnager/pen/saxeL">Try it out on CodePen</a></li>
+                    <li><a href="//twitter.com/chrisnager">Follow @chrisnager on Twitter</a></li>
                 </ul>
             </nav>
         </header>
         <main>
             <article>
-                <h1>Article title</h1>
+                <h1 id="bookmarklet">Use as a bookmarklet</h1>
+                <p>Drag this link to your bookmarks bar:
+                    <a href="javascript:(function(){var newcss='*{outline:1px solid #fff!important;background-color:rgba(0,2,54,.1)!important}';if('\v'=='v'){document.createStyleSheet().cssText=newcss;}else{var tag=document.createElement('style');tag.type='text/css';document.getElementsByTagName('head')[0].appendChild(tag);tag[(typeof document.body.style.WebkitAppearance=='string')?'innerText':'innerHTML']= newcss;}})();">simple-debug.css</a>
+                </p>
+            </article>
+            <article>
+                <h1>Some article title</h1>
                 <p>Lorem ipsum dolor sit amet, <b>consectetur</b> adipisicing elit. Quisquam aliquam consequatur excepturi esse fugiat pariatur recusandae eaque voluptatibus optio totam molestiae minima inventore explicabo cupiditate dolore ea est! Blanditiis velit!</p>
                 <p>Adipisicing elit. Veniam et sed eveniet tempore velit quod reprehenderit perferendis dolor mollitia numquam quibusdam culpa nulla optio cum quas aperiam suscipit eos iste. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam et sed <i>eveniet tempore velit quod reprehenderit perferendis</i> dolor mollitia numquam quibusdam culpa nulla optio cum quas aperiam suscipit eos iste.</p>
+                <p>Ipsum dolor sit amet, consectetur adipisicing elit. Quisquam aliquam consequatur excepturi esse fugiat pariatur recusandae eaque voluptatibus optio totam molestiae minima inventore explicabo cupiditate dolore ea est! Blanditiis velit!</p>
             </article>
         </main>
         <footer>
@@ -37,3 +44,9 @@
         </footer>
     </body>
 </html>
+
+
+
+
+
+
