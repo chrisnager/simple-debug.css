@@ -8,7 +8,7 @@ Debug your layouts with one line of CSS
 
 There are a few ways you can run simple-debug.css.
 
-1. Include `simple-debug.css` just before the `</head>` closing tag.
+- Include `simple-debug.css` just before the `</head>` closing tag.
 
 ```html
     …
@@ -17,9 +17,10 @@ There are a few ways you can run simple-debug.css.
 </head>
 ```
 
-2. Drag this link to your bookmarks bar and use it as a bookmarklet: [simple-debug.css](javascript:(function(){var newcss='*{outline:1px solid #fff!important;background-color:rgba(0,2,54,.1)!important}';if('\v'=='v'){document.createStyleSheet().cssText=newcss;}else{var tag=document.createElement('style');tag.type='text/css';document.getElementsByTagName('head')[0].appendChild(tag);tag[(typeof document.body.style.WebkitAppearance=='string')?'innerText':'innerHTML']= newcss;}})();)
+- Drag this link to your bookmarks bar and use it as a bookmarklet:
+<a href="javascript:(function(){var newcss='*{outline:1px solid #fff!important;background-color:rgba(0,2,54,.1)!important}';if('\v'=='v'){document.createStyleSheet().cssText=newcss;}else{var tag=document.createElement('style');tag.type='text/css';document.getElementsByTagName('head')[0].appendChild(tag);tag[(typeof document.body.style.WebkitAppearance=='string')?'innerText':'innerHTML']= newcss;}})();">simple-debug.css</a>
 
-3. Paste in this single line of code at the bottom of your site's last CSS file.
+- Paste in this single line of code at the bottom of your site's last CSS file.
 
 ```css
 *{outline:1px solid #fff!important;background-color:rgba(0,2,54,.1)!important}
