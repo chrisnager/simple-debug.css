@@ -1,3 +1,5 @@
+![simple-debug.css logo](logo.png "simple-debug.css logo")
+
 # simple-debug.css
 
 Debug your layouts with one line of CSS
