@@ -4,7 +4,7 @@ Debug your layouts with one line of CSS
 
 
 
-## Hot to use
+## How to use
 
 Include `simple-debug.css` just before the `</head>` closing tag.
 
