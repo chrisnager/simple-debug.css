@@ -21,6 +21,8 @@ Or paste in this single line of code at the bottom of your site's last CSS file.
 *{outline:1px solid #fff!important;background-color:rgba(0,2,54,.1)!important}
 ```
 
+![simple-debug.css in action](screenshot.png "simple-debug.css in action")
+
 
 
 ## License
