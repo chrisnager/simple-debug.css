@@ -23,6 +23,8 @@ Or paste in this single line of code at the bottom of your site's last CSS file.
 
 ![simple-debug.css in action](screenshot.png "simple-debug.css in action")
 
+Try it out on [CodePen](//codepen.io/chrisnager/pen/saxeL).
+
 
 
 ## License
