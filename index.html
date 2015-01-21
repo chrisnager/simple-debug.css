@@ -30,7 +30,7 @@
             <article>
                 <h1 id="bookmarklet">Use as a bookmarklet</h1>
                 <p>Drag this link to your bookmarks bar:
-                    <a href="javascript:(function(){var t=document.createElement('style');t.innerHTML='*{outline:1px solid #fff!important;background-color:rgba(0,2,54,.1)!important}';document.getElementsByTagName('head')[0].appendChild(t)})()">simple-debug.css</a>
+                    <a href="javascript:(function(){var d,t=document.createElement('style'),h=document.getElementsByTagName('head')[0];t.setAttribute('id','simple-debug-css');t.innerHTML='*{outline:1px solid #fff!important;background-color:rgba(0,2,54,.1)!important}';d=document.getElementById('simple-debug-css');d==null?h.appendChild(t):h.removeChild(d)})()">simple-debug.css</a>
                 </p>
             </article>
             <article>

@@ -49,6 +49,8 @@ There are a few ways you can run simple-debug.css.
 
 Try it out on [CodePen](//codepen.io/chrisnager/pen/saxeL).
 
+- Soon you'll be able to download the Chrome extension…
+
 
 
 ## License
