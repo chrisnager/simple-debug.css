@@ -1,8 +1,8 @@
 ![simple-debug.css logo](/logo.png "simple-debug.css logo")
 
-# simple-debug.css for Chrome
+# simple-debug.css Chrome extension
 
-This is the Chrome extension for [simple-debug.css](//github.com/chrisnager/simple-debug.css) available in the [Chrome store here](//chrome.google.com/webstore/category/apps).
+This is the Chrome extension for [simple-debug.css](//github.com/chrisnager/simple-debug.css) available soon in the Chrome store.
 
 This extension injects simple-debug.css's one line of CSS into the current page, adding outlines and a sense of depth to the page's elements, to make debugging the page layout easier.
 
@@ -10,7 +10,7 @@ This extension injects simple-debug.css's one line of CSS into the current page,
 
 ## How to install
 
-Download the [simple-debug.css extension from the Chrome store here](//chrome.google.com/webstore/category/apps).
+Soon you will be able to download the simple-debug.css extension from the Chrome store.
 
 
 
