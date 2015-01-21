@@ -6,6 +6,22 @@ Debug your layouts with one line of CSS
 
 
 
+## How to install
+
+- via npm
+
+```shell
+npm install simple-debug.css
+```
+
+- or bower
+
+```shell
+bower install simple-debug.css
+```
+
+
+
 ## How to use
 
 There are a few ways you can run simple-debug.css.
