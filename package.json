@@ -1,0 +1,21 @@
+{
+  "name": "simple-debug-css",
+  "version": "1.0.0",
+  "description": "Debug your layouts with one line of CSS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisnager/simple-debug.css"
+  },
+  "keywords": [
+    "CSS",
+    "Debug",
+    "Chris",
+    "Nager"
+  ],
+  "author": "cnager@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisnager/simple-debug.css/issues"
+  },
+  "homepage": "https://github.com/chrisnager/simple-debug.css"
+}

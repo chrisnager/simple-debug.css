@@ -1,0 +1,22 @@
+{
+  "name": "simple-debug.css",
+  "version": "1.0.0",
+  "homepage": "http://chrisnager.github.io/simple-debug.css/",
+  "authors": [
+    "cnager@gmail.com"
+  ],
+  "description": "Debug your layouts with one line of CSS",
+  "keywords": [
+    "CSS",
+    "Debug",
+    "Chris",
+    "Nager"
+  ],
+  "license": "MIT",
+  "ignore": [
+      "*.png",
+      "favicon.ico",
+      "README.md",
+      "package.json"
+  ]
+}
