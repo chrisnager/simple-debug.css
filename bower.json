@@ -1,14 +1,16 @@
 {
-  "name": "simple-debug-css",
+  "name": "simple-debug.css",
   "version": "1.0.0",
-  "homepage": "http://chrisnager.github.io/simple-debug.css/",
+  "homepage": "http://chrisnager.github.io/simple-debug.css",
   "authors": [
     "cnager@gmail.com"
   ],
   "description": "Debug your layouts with one line of CSS",
   "keywords": [
     "CSS",
-    "Debug",
+    "simple",
+    "debug",
+    "debugger",
     "Chris",
     "Nager"
   ],
@@ -21,6 +23,6 @@
   ],
   "repository": {
     "type": "git",
-      "url": "git@github.com:chrisnager/simple-debug.css.git"
+    "url": "git@github.com:chrisnager/simple-debug.css.git"
   }
 }
