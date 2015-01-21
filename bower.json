@@ -18,5 +18,9 @@
       "favicon.ico",
       "README.md",
       "package.json"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+      "url": "git@github.com:chrisnager/simple-debug.css.git"
+  }
 }
