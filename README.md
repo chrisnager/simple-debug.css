@@ -12,18 +12,17 @@ There are a few ways you can use simple-debug.css.
 
 - Install the [Google Chrome extension](//chrome.google.com/webstore/detail/simple-debugcss/jlkgkebpphmaiemciejnmgccejccnpha).
 
-- Drag this link to your bookmarks bar
-<a href="javascript:(function(){var d,t=document.createElement('style'),h=document.getElementsByTagName('head')[0];t.setAttribute('id','simple-debug-css');t.innerHTML='*{outline:1px solid #fff!important;background-color:rgba(0,2,54,.1)!important}';d=document.getElementById('simple-debug-css');d==null?h.appendChild(t):h.removeChild(d)})()">simple-debug.css</a>
+- Go to the [project page](//chrisnager.github.io/simple-debug.css/#bookmarklet) and drag the bookmarklet link to your bookmarks bar.      
 ![simple-debug.css bookmarklet](bookmarklet.png "simple-debug.css bookmarklet")
 
 - Install with npm
 ```shell
-npm install simple-debug.css
+npm i simple-debug.css
 ```
 
 - Install with bower
 ```shell
-bower install simple-debug.css
+bower i simple-debug.css
 ```
 
 - Include `simple-debug.css` just before the `</head>` closing tag.
