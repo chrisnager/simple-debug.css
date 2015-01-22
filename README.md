@@ -6,28 +6,27 @@ Debug your layouts with one line of CSS
 
 
 
-## How to install
+## How to use
 
-- via npm
+There are a few ways you can use simple-debug.css.
 
+- Install the [Google Chrome extension](//chrome.google.com/webstore/detail/simple-debugcss/jlkgkebpphmaiemciejnmgccejccnpha).
+
+- Drag this link to your bookmarks bar
+<a href="javascript:(function(){var d,t=document.createElement('style'),h=document.getElementsByTagName('head')[0];t.setAttribute('id','simple-debug-css');t.innerHTML='*{outline:1px solid #fff!important;background-color:rgba(0,2,54,.1)!important}';d=document.getElementById('simple-debug-css');d==null?h.appendChild(t):h.removeChild(d)})()">simple-debug.css</a>
+![simple-debug.css bookmarklet](bookmarklet.png "simple-debug.css bookmarklet")
+
+- Install with npm
 ```shell
 npm install simple-debug.css
 ```
 
-- or bower
-
+- Install with bower
 ```shell
 bower install simple-debug.css
 ```
 
-
-
-## How to use
-
-There are a few ways you can run simple-debug.css.
-
 - Include `simple-debug.css` just before the `</head>` closing tag.
-
 ```html
     …
     <link rel="stylesheet" href="app.css">
@@ -35,12 +34,7 @@ There are a few ways you can run simple-debug.css.
 </head>
 ```
 
-- Go to the [project page](//chrisnager.github.io/simple-debug.css/#bookmarklet) and drag the bookmarklet link to your bookmarks bar.
-
-![simple-debug.css bookmarklet](bookmarklet.png "simple-debug.css bookmarklet")
-
 - Paste in this single line of code at the bottom of your site's last CSS file.
-
 ```css
 *{outline:1px solid #fff!important;background-color:rgba(0,2,54,.1)!important}
 ```
@@ -49,15 +43,13 @@ There are a few ways you can run simple-debug.css.
 
 Try it out on [CodePen](//codepen.io/chrisnager/pen/saxeL).
 
-- Soon you'll be able to download the Chrome extension…
-
 
 
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2014 [Chris Nager](//twitter.com/chrisnager)
+Copyright (c) 2014-2015 [Chris Nager](//twitter.com/chrisnager)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

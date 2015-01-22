@@ -1,3 +1,4 @@
 .DS_Store
 chrome-extension.pem
 chrome-extension.crx
+*.zip
