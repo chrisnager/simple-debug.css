@@ -1,4 +1,4 @@
-![simple-debug.css logo](logo.png "simple-debug.css logo")
+![simple-debug.css logo](../gh-pages/logo.png "simple-debug.css logo")
 
 # simple-debug.css
 
@@ -13,7 +13,7 @@ There are a few ways you can use simple-debug.css.
 - Install the [Google Chrome extension](//chrome.google.com/webstore/detail/simple-debugcss/jlkgkebpphmaiemciejnmgccejccnpha).
 
 - Go to the [project page](//chrisnager.github.io/simple-debug.css/#bookmarklet) and drag the bookmarklet link to your bookmarks bar.      
-![simple-debug.css bookmarklet](bookmarklet.png "simple-debug.css bookmarklet")
+![simple-debug.css bookmarklet](../gh-pages/bookmarklet.png "simple-debug.css bookmarklet")
 
 - Install with npm
 ```shell
@@ -38,7 +38,7 @@ bower i simple-debug.css
 *{outline:1px solid #fff!important;background-color:rgba(0,2,54,.1)!important}
 ```
 
-![simple-debug.css in action](screenshot.png "simple-debug.css in action")
+![simple-debug.css in action](../gh-pages/screenshot.png "simple-debug.css in action")
 
 Try it out on [CodePen](//codepen.io/chrisnager/pen/saxeL).
 
